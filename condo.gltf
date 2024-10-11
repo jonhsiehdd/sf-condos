@@ -1,0 +1,180 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.2.cf7d3637)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "KHR_materials_ior",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 292053,
+            "type": "VEC3",
+            "max": [
+                0.6311159729957581,
+                0.9978020191192627,
+                0.6304600238800049
+            ],
+            "min": [
+                -0.6336619853973389,
+                -1.0030499696731568,
+                -0.6291239857673645
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 292053,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                0.9999995231628418
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -0.9999998807907105
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 292053,
+            "type": "VEC2",
+            "max": [
+                0.9981949925422669,
+                0.9981949925422669
+            ],
+            "min": [
+                0.0018050000071525574,
+                0.0025150179862976076
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 292053,
+            "type": "SCALAR",
+            "max": [
+                292052
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 10513908,
+            "uri": "result.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 3504636,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 3504636,
+            "byteLength": 3504636,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 7009272,
+            "byteLength": 2336424,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 9345696,
+            "byteLength": 1168212,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "DefaultMaterial",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "extensions": {
+                "KHR_materials_ior": {
+                    "ior": 1.0
+                }
+            }
+        },
+        {
+            "name": "Material.001",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    0.6000000238418579,
+                    1.0
+                ],
+                "metallicFactor": 0.0
+            },
+            "extensions": {
+                "KHR_materials_ior": {
+                    "ior": 1.0
+                }
+            }
+        }
+    ],
+    "meshes": [
+        {
+            "name": "create_a_standard_16__1011012007_refine",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 3,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "create_a_standard_16__1011012007_refine.obj",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "create_a_standard_16__1011012007_refine",
+            "mesh": 0
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}
